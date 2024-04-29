@@ -18,7 +18,7 @@ const CartCard = ({img,title,price,cart,setCart,id}) => {
         })
         setCart(removeCart);
        }} >Buy</button></Link>
-       <Link to={`/cart`}><button onClick={()=>{
+       <Link to={`/myshopy/cart`}><button onClick={()=>{
         const removeCart=cart.filter((item)=>{
             return item!=id;
         })
