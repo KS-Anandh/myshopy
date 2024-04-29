@@ -165,12 +165,12 @@ a:hover{
 .link_button{
     color:blue;
 }
-@media screen and (min-width:400px) and (max-width:800px){
+@media screen and (min-width:450px) and (max-width:800px){
     .nav-info .rp {
         display: none;
    }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     .product{
         width:160px;
         height:265px;
