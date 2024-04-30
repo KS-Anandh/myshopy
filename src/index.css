@@ -22,6 +22,7 @@
     transition: all 1s;
     border-radius: 8px;
     color:blue;
+  
 }
 .product img{
     width:220px;
@@ -56,9 +57,8 @@
 }
 .navBar{
     cursor: pointer;
-}
-
-.nav-info{
+    box-shadow: 3px 2px 10px rgb(45, 47, 45);
+}.nav-info{
     display: flex;
     width:100%;
     align-items: center;
@@ -124,9 +124,11 @@ a:hover{
     align-items: center;
     flex-direction: column;
     row-gap: 15px;
-    border:2px solid rgb(206, 159, 97) ;
-    margin:0px 10px;
-    padding:20px 0px;
+    border:2px solid rgb(217, 130, 16) ;
+    border-radius: 10px;
+    margin:20px 10px;
+    padding:20px 20px;
+    background-color: beige;
 
 }
 .yes{
@@ -172,7 +174,7 @@ a:hover{
 }
 @media screen and (max-width:450px){
     .product{
-        width:160px;
+        width:170px;
         height:265px;
         background-color:burlywood;
         margin: 10px;
@@ -181,9 +183,11 @@ a:hover{
         transition: all 1s;
         border-radius: 5px;
         color:blue;
+        box-shadow: 3px 2px 10px rgb(0, 0, 0);
+  
     }
     .product img{
-        width:160px;
+        width:170px;
         height:200px;
     }
     .nav-info {
@@ -204,16 +208,16 @@ a:hover{
     padding:5px;
 }
 .input_text{
-    width:200px;
+    width:300px;
     height:30px;
     outline:none;
     padding:0px 10px;
 }
 .input_area{
-    width:200px;
+    width:300px;
     height:60px;
     outline:none;
-    padding:0px 10px;
+    padding:10px 10px;
     border:2px solid grey;
 }
 .orderCard{

@@ -9,7 +9,7 @@ const MyCart = ({data,cart,setCart}) => {
         {
            cart.map((item,id)=>{
             item--;
-            return <CartCard key={id} id={item} title={data[item].title} img={data[item].image} price={data[item].price} cart={cart} setCart={setCart}/>
+            return <CartCard key={id} id={item} title={data[item].title} img={data[item].image} price={data[item].price+150} cart={cart} setCart={setCart}/>
            }) 
         }
     </div>

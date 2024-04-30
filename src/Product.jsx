@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 const Product = ({img,title,price,cart,setCart,id}) => {
+  price=price+150;
   return (
     <div className='product'>
         <img src={img} width="100%" height="200px"/>

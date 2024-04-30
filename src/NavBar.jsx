@@ -10,7 +10,7 @@ const NavBar = ({cart,order}) => {
              <p className='rp'>Ph-no:+91 9676906525</p>
         </div>
         <div className='nav-header'>
-              <h2>MyShopy</h2>
+              <h2 style={{color:"red"}}><span style={{color:"blue"}}>My</span>Shopy</h2>
         </div>
         <div className='nav-list'>
             <ul>

@@ -26,7 +26,7 @@ function sendToOrderPage(){
         }/>
         <textarea className='input_area' onChange={(e)=>{
           setAdress(e.target.value)
-        }} cols="30" row="2"placeholder='Enter Your Address'/>
+        }} cols="30" row="2"placeholder='Enter Your Address(inculde Your Road and street)'/>
         <input className='input_text' type="text" onChange={(e)=>{
           setPh_no(e.target.value)
         }} placeholder='Your Phone Number'/>
